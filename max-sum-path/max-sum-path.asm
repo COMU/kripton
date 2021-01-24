@@ -21,8 +21,6 @@ triangle:
         dq 91, 71, 52, 38, 17, 14, 91, 43, 58, 50, 27, 29, 48
         dq 63, 66, 4,  68, 89, 53, 67, 30, 73, 16, 69, 87, 40, 31
         dq 4,  62, 98, 27, 23, 9,  70, 98, 73, 93, 38, 53, 60, 4,  23
-i:
-        dq 0
 
         SECTION .rodata
 fmt:
@@ -61,15 +59,12 @@ addition:
 
         pop rsi                        ; get offsets back in to registers
         pop rdx
-        mov rax, [i]                   ; get inner index from memory
         inc rax                        ; increase index value
-        mov [i], rax                   ; store index value in to memory
         cmp rax, rsi                   ; compare idex value with current array's lenght
         jne loop_1                     ; if rax != rsi then continue
 ; end of inner loop
 
         xor rax, rax                   ; assign 0 to rax
-        mov [i], rax                   ; store index value in to memory
 
         dec rsi                        ; upper array size is one shorter than current
         sub rdx, rsi                   ; change offset to upper array's first item
