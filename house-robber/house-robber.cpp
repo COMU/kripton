@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int rob( vector<int> houses)
+int rob(vector<int> houses)
 {
     if(houses.size() == 0) // Eğer ev sayısı 0 ise 0 dön
         return 0;
@@ -27,7 +27,6 @@ int rob( vector<int> houses)
 int main()
 {
     vector<int> houses {2, 7, 9, 3, 1};
-
     cout << "Result: " << rob(houses) << endl;
 
     return 0;
