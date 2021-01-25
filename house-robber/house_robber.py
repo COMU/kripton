@@ -17,6 +17,16 @@ class Solution:
             # we will rob either i+2 or i+3 after i
             a = i+2 < len(nums) and nums[i+2] or 0
             b = i+3 < len(nums) and nums[i+3] or 0
+            # more open version of one liner for readability
+            # works slower :) 
+            # if i+2 < len(nums):
+            #    a = nums[i+2]
+            # else:
+            #    a = 0
+            # if i+3 < len(nums):
+            #    b = nums [i+3]
+            # else:
+            #    b = 0
 
             # pick one that will give us maximum
             nums[i] = max(a, b) + nums[i]
