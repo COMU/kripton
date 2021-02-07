@@ -6,7 +6,7 @@ function titleToNumber(s) {
     let result = 0;
     let unit = 1;
 
-    for (let i = 0, j = s.length - 1; i < s.length; i++, j--){
+    for (let j = s.length - 1; j >= 0; j--){
         result += (convertCharToAscii(s.charAt(j)) - 64) * unit;
         unit *= 26;
     }
