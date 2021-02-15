@@ -150,7 +150,7 @@ int main()
 
     for(int i = 0; i < s1.aCaseArray.size(); i++)
     {
-        cout << "Case #" << i+1 << endl;
+        cout << "Case #" << i+1 << ":" << endl;
         s1.printResult(s1.findCase(s1.aCaseArray[i]));
     }
 
