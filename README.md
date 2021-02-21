@@ -18,5 +18,7 @@ Bu depoda çözülmesi keyifli problemleri farklı programlama dilleriyle çözm
 
 8 - travel-restrictions: https://www.facebook.com/codingcompetitions/hacker-cup/2020/qualification-round/problems/A
 
+9 - determining-dna-health: https://www.hackerrank.com/challenges/determining-dna-health/problem
+
 
 Soruları çözmeden önce yaptığımız konuşmalara https://www.youtube.com/watch?v=4w7BccAyBUg&list=PLVZv_UDznXRoirmBetKIK63d5mttVYGYN adresinden ulaşabilirsiniz.
