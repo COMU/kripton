@@ -20,5 +20,9 @@ Bu depoda çözülmesi keyifli problemleri farklı programlama dilleriyle çözm
 
 9 - determining-dna-health: https://www.hackerrank.com/challenges/determining-dna-health/problem
 
+10 - prime-pattern: https://projecteuler.net/problem=146
+
+11 - palindromic-sums: https://projecteuler.net/problem=125
+
 
 Soruları çözmeden önce yaptığımız konuşmalara https://www.youtube.com/watch?v=4w7BccAyBUg&list=PLVZv_UDznXRoirmBetKIK63d5mttVYGYN adresinden ulaşabilirsiniz.
