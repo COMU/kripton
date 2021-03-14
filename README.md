@@ -26,4 +26,8 @@ Bu depoda çözülmesi keyifli problemleri farklı programlama dilleriyle çözm
 
 12 - XOR-decryption: https://projecteuler.net/problem=59
 
+13 - divisibility-of-factorials: https://projecteuler.net/problem=549
+
+14 - square-root-smooth-Numbers: https://projecteuler.net/problem=668
+
 Soruları çözmeden önce yaptığımız konuşmalara https://www.youtube.com/watch?v=4w7BccAyBUg&list=PLVZv_UDznXRoirmBetKIK63d5mttVYGYN adresinden ulaşabilirsiniz.
