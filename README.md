@@ -32,4 +32,6 @@ Bu depoda çözülmesi keyifli problemleri farklı programlama dilleriyle çözm
 
 15 - powers-of-two: https://projecteuler.net/problem=686
 
+16 - odd-elimination: https://projecteuler.net/problem=539
+
 Soruları çözmeden önce yaptığımız konuşmalara https://www.youtube.com/watch?v=4w7BccAyBUg&list=PLVZv_UDznXRoirmBetKIK63d5mttVYGYN adresinden ulaşabilirsiniz.
