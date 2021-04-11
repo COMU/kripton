@@ -36,4 +36,6 @@ Bu depoda çözülmesi keyifli problemleri farklı programlama dilleriyle çözm
 
 17 - cheapest-flights-within-k-stops: https://leetcode.com/problems/cheapest-flights-within-k-stops/description/
 
+18 - lights-out: https://projecteuler.net/problem=707
+
 Soruları çözmeden önce yaptığımız konuşmalara https://www.youtube.com/watch?v=4w7BccAyBUg&list=PLVZv_UDznXRoirmBetKIK63d5mttVYGYN adresinden ulaşabilirsiniz.
