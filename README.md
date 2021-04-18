@@ -38,4 +38,6 @@ Bu depoda çözülmesi keyifli problemleri farklı programlama dilleriyle çözm
 
 18 - lights-out: https://projecteuler.net/problem=707
 
+19 - strong-repunits: https://projecteuler.net/problem=346
+
 Soruları çözmeden önce yaptığımız konuşmalara https://www.youtube.com/watch?v=4w7BccAyBUg&list=PLVZv_UDznXRoirmBetKIK63d5mttVYGYN adresinden ulaşabilirsiniz.
