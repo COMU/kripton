@@ -55,7 +55,7 @@ class Solution {
         }
 
 
-        // shortest path - Dijkstra Algorith
+        // shortest path - Dijkstra Algorithm
         PriorityQueue<Flight> heap = new PriorityQueue<Flight>((f1, f2) -> f1.totalCost-f2.totalCost);
         heap.offer(new Flight(graph.get(src), 0, 0));
 
