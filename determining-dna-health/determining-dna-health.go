@@ -68,10 +68,10 @@ func (trie *Trie) GetScore(start int, end int) int {
 	}
 	return score
 }
-func (trie *Trie) GetOccurenceCount(runes []rune, start int, end int) int {
+func (trie *Trie) GetOccurrenceCount(runes []rune, start int, end int) int {
 	score := trie.GetScore(start, end)
 	if len(runes) > 0 && trie.HasChild(runes[0]) {
-		score += trie.GetChild(runes[0]).GetOccurenceCount(runes[1:], start, end)
+		score += trie.GetChild(runes[0]).GetOccurrenceCount(runes[1:], start, end)
 	}
 	return score
 }
@@ -130,7 +130,7 @@ func main() {
 		score := 0
 		runes := []rune(d.String)
 		for i, _ := range runes {
-			score += root.GetOccurenceCount(runes[i:], d.Start, d.End)
+			score += root.GetOccurrenceCount(runes[i:], d.Start, d.End)
 		}
 
 		if score > healthiest {

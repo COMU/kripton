@@ -11,7 +11,7 @@ using namespace std;
 typedef pair<int, pair<string, string>> Case;
 typedef vector<vector<char>> ResultMatrix;
 
-// Soluiton class declaration
+// Solution class declaration
 class Solution
 {
 public:
@@ -23,7 +23,7 @@ public:
     vector<Case> aCaseArray; // a struct for a case. eg: 2, YY, NN
 };
 
-// Soluiton class definetion
+// Solution class definition
 ResultMatrix Solution::findCase(const Case& aCase)
 {
         int nCountryCount = aCase.first;
